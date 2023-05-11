@@ -7,6 +7,26 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project4.png",
+      projectName: "Meta Messenger Clone",
+      projectLink: "https://meta-messenger-clone-aa2r.vercel.app/",
+      projectDescription:
+      "This real-time messenger app was built using React.js, Tailwind CSS, Prisma, MongoDB, NextAuth.js, and Pusher. The main features include real-time messaging, message notifications, online/offline user status, message read recipts, file and image upload using Cloudinary CDN, creating group chats, customizing user profile, and authentication with Google and GitHub.",
+      projectTech: [
+        "React.js",
+        "Next.js",
+        "Tailwind CSS",
+        "Prisma",
+        "MongoDB",
+        "NextAuth.js",
+        "Pusher",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/meta-messenger-clone",
+        externalLink: "https://meta-messenger-clone-aa2r.vercel.app/",
+      },
+    },
+    {
       image: "/project1.png",
       projectName: "Airbnb Clone",
       projectLink: "https://clone-project-airbnb-git-main-knightfury101.vercel.app/",
