@@ -7,6 +7,25 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project5.png",
+      projectName: "Spotify Clone",
+      projectLink: "https://spotify-clone-tan-five.vercel.app/",
+      projectDescription:
+      "Introducing the Full Stack Spotify Clone built using Next.js 13.4, React.js, Tailwind CSS, Supabase, PostgreSQL, and Stripe. This project covers key features such as song upload song/image, Stripe integration for payments, Supabase and PostgreSQL for efficient database handling, and Tailwind CSS for sleek UI design and responsive layout for all devices. It also includes advanced player component, Stripe recurring payments, favorites system, and much more.",
+      projectTech: [
+        "Next.js 13.4",
+        "React.js",
+        "Tailwind CSS",
+        "Stripe",
+        "Supabase",
+        "PostgreSQL",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/spotify-clone",
+        externalLink: "https://spotify-clone-tan-five.vercel.app/",
+      },
+    },
+    {
       image: "/project4.png",
       projectName: "Meta Messenger Clone",
       projectLink: "https://meta-messenger-clone-aa2r.vercel.app/",
