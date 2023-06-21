@@ -20,7 +20,7 @@ function Education() {
       start: "August 2021",
       end: "May 2023",
       shortDescription: [
-      "GPA: 3.41",
+      "GPA: 3.5",
       "Relevant Coursework: Analysis of Algorithms, Computer and System Programming, Operating System, Embedded Systems, Database Management System, System Model and Architecture",
       "Operating System Project: The project involving Linux command-line tools utilized a Directed Acyclic Graph to streamline the execution of CMD line tools and improve their performance. The use of GoLang allowed for effecient parallel processing od fata, leading to significant performance improvements.",
       ],
