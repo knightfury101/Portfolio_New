@@ -100,6 +100,23 @@ function Projects() {
         github: "https://github.com/knightfury101/threejs-ai",
         externalLink: "https://meek-salamander-9200f0.netlify.app/",
       },
+    },{
+      image: "/project3.png",
+      projectName: "Auto Moto",
+      projectLink: "https://auto-moto-alay.vercel.app/",
+      projectDescription:
+        "The project will use NextJS 13 App Router and Server Side Rendering to provide a fast and SEO-friendly experience for users. It will also implement advanced search functionality, filtering capabilities, and custom filter, combobox, and modal elements. The project will allow users to search for cars without updating the search parameters, search through filters without updating the search parameters, and leverage the powers of 2 APIs in one project.",
+      projectTech: [
+        "React.js",
+        "Next.js",
+        "Typescript",
+        "Tailwind CSS",
+        "Rapid API",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/auto_moto",
+        externalLink: "https://auto-moto-alay.vercel.app/",
+      },
     },
   ];
   return (
