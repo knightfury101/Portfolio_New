@@ -101,7 +101,7 @@ function Projects() {
         externalLink: "https://meek-salamander-9200f0.netlify.app/",
       },
     },{
-      image: "/project3.png",
+      image: "/project6.png",
       projectName: "Auto Moto",
       projectLink: "https://auto-moto-alay.vercel.app/",
       projectDescription:
