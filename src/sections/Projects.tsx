@@ -7,6 +7,50 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project7.png",
+      projectName: "E-Commerce Front-End Store",
+      projectLink: "https://ecommerce-store-nine-psi.vercel.app/",
+      projectDescription:
+      "Introducing an impressive store developed with React.js, Next.js 13 App Router, Tailwind CSS, Prisma, MySQL, and PlanetScale. Users can explore and order products available on the website. The store provides convenient size and color filters for easy product selection. Additionally, it incorporates an 'Add To Cart' functionality for seamless shopping experiences. To ensure secure transactions, the store utilizes Stripe Checkout and Stripe Webhooks.",
+      projectTech: [
+        "Next.js 13.4 App Router",
+        "React.js",
+        "Tailwind CSS",
+        "MySQL",
+        "Stripe",
+        "ShadcnUI",
+        "Prisma",
+        "PlanetScale",
+        "Clerk Authentication",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/ecommerce-store",
+        externalLink: "https://ecommerce-store-nine-psi.vercel.app/",
+      },
+    },
+    {
+      image: "/project8.png",
+      projectName: "E-Commerce Dashboard",
+      projectLink: "https://ecommerce-admin-bupfqm4m6-knightfury101.vercel.app/",
+      projectDescription:
+      "Introducing a state-of-the-art Admin Dashboard built with React.js, Next.js 13 App Router, Tailwind CSS, Prisma, MySQL, and PlanetScale. Users can manage multiple vendors/stores through this unified dashboard. The dashboard incorporates advanced Clerk Authentication and utilizes the ShadcnUI for the user interface.",
+      projectTech: [
+        "Next.js 13.4 App Router",
+        "React.js",
+        "Tailwind CSS",
+        "MySQL",
+        "Stripe",
+        "ShadcnUI",
+        "Prisma",
+        "PlanetScale",
+        "Clerk Authentication",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/ecommerce-admin",
+        externalLink: "https://ecommerce-admin-bupfqm4m6-knightfury101.vercel.app/",
+      },
+    },
+    {
       image: "/project5.png",
       projectName: "Spotify Clone",
       projectLink: "https://spotify-clone-tan-five.vercel.app/",
