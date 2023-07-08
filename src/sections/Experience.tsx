@@ -13,48 +13,48 @@ function Experience() {
   }, [selected]);
 
   const expereinces = [
+    // {
+    //   name: "CueTech Systems",
+    //   role: "Junior Software Engineer",
+    //   url: "",
+    //   start: "October 2018",
+    //   end: "July 2021",
+    //   shortDescription: [
+    //     "Supported and maintained existing projects, reviewed bugs, reported, and fixed issues in existing software on Python.",
+    //     "Worked on writing unit tests for Python SDK and Python scripts using the Agile development framework.",
+    //     "Involved in web/application development using Python, HTML5, CSS3, AJAX, JSON, and jQuery.",
+    //     "Developed and tested multiple dashboard features using Python, Java, Bootstrap, CSS, JavaScript, and jQuery.",
+    //     "Generated Python Django forms to record online user data and used PyTest for writing test cases.",
+    //     "Developed views and templates with Django view controllers and template language to create a user-friendly website interface.",
+    //     "Used Git version control and deployed projects to Heroku.",
+    //     "Gained experience with Docker and deployed applications inside software containers.",
+    //     "Involved in the design and development phases of Agile software development",
+    //     "Coordinated with a team of developers and designers while interacting with project managers, staff, and other stakeholders to understand user needs.",
+    //   ],
+    // },
     {
-      name: "CueTech Systems",
-      role: "Junior Software Engineer",
+      name: "W3 Dev Pvt. Ltd.",
+      role: "Web Developer Intern",
       url: "",
-      start: "October 2018",
-      end: "July 2021",
+      start: "January 2019",
+      end: "August 2019",
       shortDescription: [
-        "Supported and maintained existing projects, reviewed bugs, reported, and fixed issues in existing software on Python.",
-        "Worked on writing unit tests for Python SDK and Python scripts using the Agile development framework.",
-        "Involved in web/application development using Python, HTML5, CSS3, AJAX, JSON, and jQuery.",
-        "Developed and tested multiple dashboard features using Python, Java, Bootstrap, CSS, JavaScript, and jQuery.",
-        "Generated Python Django forms to record online user data and used PyTest for writing test cases.",
-        "Developed views and templates with Django view controllers and template language to create a user-friendly website interface.",
-        "Used Git version control and deployed projects to Heroku.",
-        "Gained experience with Docker and deployed applications inside software containers.",
-        "Involved in the design and development phases of Agile software development",
-        "Coordinated with a team of developers and designers while interacting with project managers, staff, and other stakeholders to understand user needs.",
+        "I have extensive experience collaborating with cross-functional teams and have been involved in ideating, designing, and deploying new websites from conception to launch, ensuring seamless integration with complex back-end databases and services.",
+        "Additionally, I have contributed to updating existing websites using my expertise in full-stack development to deliver an exceptional user experience to end-users.",
+        "With my technical proficiency and collaborative approach, I have established a reputation as a full-stack developer who consistently delivers exceptional results on time and on budget.",
       ],
     },
-    // {
-    //   name: "W3 Dev Pvt. Ltd.",
-    //   role: "Web Developer Intern",
-    //   url: "",
-    //   start: "January 2019",
-    //   end: "August 2019",
-    //   shortDescription: [
-    //     "I have extensive experience collaborating with cross-functional teams and have been involved in ideating, designing, and deploying new websites from conception to launch, ensuring seamless integration with complex back-end databases and services.",
-    //     "Additionally, I have contributed to updating existing websites using my expertise in full-stack development to deliver an exceptional user experience to end-users.",
-    //     "With my technical proficiency and collaborative approach, I have established a reputation as a full-stack developer who consistently delivers exceptional results on time and on budget.",
-    //   ],
-    // },
-    // {
-    //   name: "Freemind Software",
-    //   role: "Front End Developer Intern",
-    //   url: "",
-    //   start: "July 2018",
-    //   end: "October 2018",
-    //   shortDescription: [
-    //     "I have successfully executed critical improvements to enhance user interface and experience by utilizing advanced coding techniques in HTML, CSS, and JavaScript frameworks such as jQuery and React.js.",
-    //     "Additionally, I have effectively translated UI/UX design frameworks into polished, high-quality visual elements through skillful coding in dynamic, fast-paced environments.",
-    //   ],
-    // },
+    {
+      name: "Freemind Software",
+      role: "Front End Developer Intern",
+      url: "",
+      start: "July 2018",
+      end: "October 2018",
+      shortDescription: [
+        "I have successfully executed critical improvements to enhance user interface and experience by utilizing advanced coding techniques in HTML, CSS, and JavaScript frameworks such as jQuery and React.js.",
+        "Additionally, I have effectively translated UI/UX design frameworks into polished, high-quality visual elements through skillful coding in dynamic, fast-paced environments.",
+      ],
+    },
   ];
   return (
     <motion.div
