@@ -7,6 +7,30 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project9.png",
+      projectName: "Savant+ AI SaaS",
+      projectLink: "https://ai-saas-j3s6xvj54-knightfury101.vercel.app/",
+      projectDescription:
+      "Savant+ is an advanced AI SaaS integrating OpenAI and ReplicateAI APIs for chatbot, code, image, video, and music generation. Built with Next.js, React.js, Tailwind CSS, and Prisma, it offers secure authentication via Clerk and real-time support through Crisp Chat. Users can access a free tier with limited usage and upgrade to premium features with Stripe payment. A comprehensive AI solution for creative endeavors and business needs.",
+      projectTech: [
+        "OpenAI API",
+        "Replicate AI API",
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Stripe",
+        "ShadcnUI",
+        "Prisma",
+        "PlanetScale",
+        "Clerk Authentication",
+        "Crisp Chat",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/ai-saas/tree/main",
+        externalLink: "https://ai-saas-j3s6xvj54-knightfury101.vercel.app/",
+      },
+    },
+    {
       image: "/project7.png",
       projectName: "E-Commerce Front-End Store",
       projectLink: "https://ecommerce-store-nine-psi.vercel.app/",
