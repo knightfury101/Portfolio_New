@@ -7,6 +7,32 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project10.png",
+      projectName: "Sideckick+ AI SaaS",
+      projectLink: "https://ai-sidekick.vercel.app/",
+      projectDescription:
+        "Sidekick+ is an advanced AI SaaS integrating cutting-edge technologies like LangChain, Pinecone, Upstash, and OpenAI to enable robust capabilities. It provides a free tier for basic features, but users can upgrade to a premium tier to craft tailored assistants, enabled by Stripe payments. Additionally, this AI SaaS project consolidates Next.js, React, Tailwind, Prisma, and Clerk for streamlined authentication powered by vector, redis, and OpenAI's potent API. In summary, Sidekick+ artfully combines leading technologies to deliver customizable AI assistants and capabilities through a streamlined SaaS platform.",
+      projectTech: [
+        "OpenAI API",
+        "Replicate AI API",
+        "LangChain",
+        "Pinecone Vector Database",
+        "Upstash Redis Database",
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Stripe",
+        "Cloudinary CDN",
+        "ShadcnUI",
+        "Prisma",
+        "Clerk Authentication",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/ai-sidekick",
+        externalLink: "https://ai-sidekick.vercel.app/",
+      },
+    },
+    {
       image: "/project9.png",
       projectName: "Savant+ AI SaaS",
       projectLink: "https://ai-saas-j3s6xvj54-knightfury101.vercel.app/",
