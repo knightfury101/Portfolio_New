@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-          Hello, my name is Aditya Singh Rajput, and I am a passionate computer software engineering enthusiast based in Fairfax, Virginia. I have a particular interest in web technologies, which led me to publish a research paper on the Django Web Development framework in IJTRE. Additionally, I have honed my leadership skills by volunteering for NGO drives with the Guru Laxmi Narayan Welfare Society.
+          Hello, my name is Aditya Singh Rajput, and I am a passionate computer software engineering enthusiast based in San Francisco, California. I have a particular interest in web technologies, which led me to publish a research paper on the Django Web Development framework in IJTRE. Additionally, I have honed my leadership skills by volunteering for NGO drives with the Guru Laxmi Narayan Welfare Society.
           </p>
 
           <p className="about-grid-info-text">
