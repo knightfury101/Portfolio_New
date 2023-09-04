@@ -7,6 +7,31 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project11.png",
+      projectName: "Discord Clone",
+      projectLink: "https://discord-clone-production-e325.up.railway.app/",
+      projectDescription:
+        "With Socket.io at its core, this Discord clone offers lightning-fast messaging and supports file attachments via UploadThing. Edit and delete messages in real-time, host 1:1 conversations, and conduct video calls provided by LiveKit. Manage members effortlessly and generate unique invite links. Customize your server, experience a sleek UI with light/dark modes, and ensure uninterrupted connections with WebSocket fallback. Utilizing Prisma for ORM and PlanetScale for MySQL, prioritize security with authentication via Clerk. Deployed with ease on Railway and revolutionize your communication experience.",
+      projectTech: [
+        "Socket.io",
+        "LiveKit",
+        "UploadThing",
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "MySQL",
+        "ShadcnUI",
+        "Prisma",
+        "Clerk Authentication",
+        "Railway",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/discord-clone",
+        externalLink: "https://discord-clone-production-e325.up.railway.app/",
+      },
+    },  
+    {
       image: "/project10.png",
       projectName: "Sideckick+ AI SaaS",
       projectLink: "https://ai-sidekick.vercel.app/",
