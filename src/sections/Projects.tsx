@@ -7,6 +7,49 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project13.png",
+      projectName: "Perkyz Learning - Learning Management System",
+      projectLink: "https://perkyz-learning.vercel.app/",
+      projectDescription:
+        "Perkyz Learning is an innovative online learning platform that leverages modern web technologies to deliver enriching educational experiences. Built using Next.js, React.js, and Tailwind CSS, Perkyz Learning provides a seamless UX for students and teachers. Multimedia integration powered by UploadThing and MUX enhances student engagement with interactive course content. User-friendly authentication via Clerk, integrated with Prisma and PlanetScale, enables secure access. Students can immerse themselves in diverse courses and track progress, while teachers can adeptly manage content creation. With Stripe underlying transactions, Perkyz harnesses the capabilities of cutting-edge web development to provide impactful online learning. Its strategic use of technology moves education into an enlightened new era.",
+      projectTech: [
+        "MUX Studio",
+        "UploadThing",
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "MySQL",
+        "PlanetScale",
+        "ShadcnUI",
+        "Clerk Authentication",
+        "Stripe",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/perkyz-learning",
+        externalLink: "https://perkyz-learning.vercel.app/",
+      },
+    }, 
+    {
+      image: "/project12.png",
+      projectName: "IntelliCaptions",
+      projectLink: "https://intellicaption.vercel.app/",
+      projectDescription:
+        "Transcending barriers with AI-empowered accessibility, IntelliCaptions ingeniously automates caption creation for social media video content. By harnessing Amazon Transcribe's astute machine learning capabilities, the web app effortlessly analyzes uploaded media, acutely deciphers audio, and adeptly generates astute captions. Through an intuitive interface, users can meticulously fine-tune the color, and outline of captions before downloading the enhanced video. Architected using React.js, Next.js 13, TailwindCSS, and ffmpeg and relying on AWS S3 for secure storage, IntelliCaptions streamlines access and amplifies reach with its technically impressive automation. This boon for social media creators sagaciously levels the playing field, enabling wider audiences to delight in content.",
+      projectTech: [
+        "React.js",
+        "Next.js 13",
+        "AWS S3",
+        "Tailwind CSS",
+        "Amazon Transcribe Model",
+        "FFmpeg",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/intellicaption",
+        externalLink: "https://intellicaption.vercel.app/",
+      },
+    }, 
+    {
       image: "/project11.png",
       projectName: "Discord Clone",
       projectLink: "https://discord-clone-production-e325.up.railway.app/",
