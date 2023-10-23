@@ -7,6 +7,27 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project14.png",
+      projectName: "Motion - A Notion Clone",
+      projectLink: "https://motion-sand.vercel.app/",
+      projectDescription:
+        "Revolutionize your productivity with Motion, a powerful platform designed to streamline your workflow. Boasting a real-time database integration Convex Database and an intuitive Notion-style editor by BlockNote, Motion offers a seamless blend of collaborative tools and document management. With features like adaptive light and dark modes, infinite document nesting, and effortless file management, Motion provides a versatile workspace for every user. Whether on desktop or mobile, its responsive design ensures you stay productive on the go. Secure your work with Clerk's authentication and enjoy the visual flair of real-time icon updates. With Motion, publish your notes online, customize document covers, and even recover deleted files, ensuring your work is always protected. Experience a new era of productivity with Motion, where technology meets efficiency seamlessly.",
+      projectTech: [
+        "Convex Database",
+        "BlockNote",
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Edgestore",
+        "ShadcnUI",
+        "Clerk Authentication",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/motion",
+        externalLink: "https://motion-sand.vercel.app/",
+      },
+    },
+    {
       image: "/project13.png",
       projectName: "Perkyz Learning - Learning Management System",
       projectLink: "https://perkyz-learning.vercel.app/",
