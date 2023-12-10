@@ -7,6 +7,51 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project16.png",
+      projectName: "Perkyz - A Trello Clone",
+      projectLink: "https://perkyz-task-master-knightfury101.vercel.app/",
+      projectDescription:
+        "Meet Perkyz, the ultimate project management tool inspired by Trello but designed for enhanced efficiency. Organize seamlessly within workspaces using intuitive board and list management. Enjoy stunning cover images from Unsplash API and track every move with an activity log. Effortlessly create, rename, reorder, and copy boards, lists, and cards. With Stripe subscriptions for unlimited boards and robust tech like MySQL, Prisma, shadcnUI, and TailwindCSS, Perkyz redefines project management simplicity.",
+      projectTech: [
+        "Next.js 13",
+        "React.js",
+        "Tailwind CSS",
+        "Prisma",
+        "MySQL",
+        "Clerk Authentication",
+        "Stripe",
+        "Unsplash API",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/Perkyz-Task-Master",
+        externalLink: "https://perkyz-task-master-knightfury101.vercel.app/",
+      },
+    },
+    {
+      image: "/project15.png",
+      projectName: "Docuverse",
+      projectLink: "https://docuverse-knightfury101.vercel.app/",
+      projectDescription:
+        "Welcome to Docuverse, where PDF interaction meets innovation. This SaaS platform offers a revolutionary PDF viewer that responds instantly to your questions. With a sleek UI, real-time API responses, and secure authentication, Docuverse redefines document engagement. Experience efficiency with drag-and-drop uploads, lightning-fast loading, and advanced technologies like LangChain and Prisma, all written in TypeScript. Join the PDF revolution with Docuverse today.",
+      projectTech: [
+        "Pinecone Vector Database",
+        "tRPC",
+        "Next.js 13",
+        "React.js",
+        "OpenAI API",
+        "Tailwind CSS",
+        "ShadcnUI",
+        "Prisma",
+        "Kinde Authentication",
+        "Stripe",
+        "LangChain",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/docuverse",
+        externalLink: "https://docuverse-knightfury101.vercel.app/",
+      },
+    },
+    {
       image: "/project14.png",
       projectName: "Motion - A Notion Clone",
       projectLink: "https://motion-sand.vercel.app/",
