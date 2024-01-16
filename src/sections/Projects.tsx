@@ -7,6 +7,30 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project17.png",
+      projectName: "LiveVibe - A Live Streaming App",
+      projectLink: "https://live-vibe.vercel.app/",
+      projectDescription:
+        "Embark on an exhilarating LiveVibe journey, a revolutionary live streaming platform seamlessly generating unique ingress keys with LiveKit for smooth and captivating live streams. Connect effortlessly to OBS, expand your content's reach, and enjoy a hassle-free streaming experience. With powerful features, an elegant ShadcnUI interface, and secure Clerk Authentication, LiveVibe ensures a positive community engagement. Elevate content visual appeal with captivating thumbnails through UploadThing, and backed by NeonDB with PostgreSQL, it promises efficient and reliable data storage.",
+      projectTech: [
+        "Next.js 14",
+        "React.js",
+        "Tailwind CSS",
+        "WebSockets",
+        "Neon DB",
+        "LiveKit",
+        "ShadcnUI",
+        "Prisma",
+        "PostgreSQL",
+        "Clerk Authentication",
+        "UploadThing",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/live-vibe",
+        externalLink: "https://live-vibe.vercel.app/",
+      },
+    },
+    {
       image: "/project16.png",
       projectName: "Perkyz - A Trello Clone",
       projectLink: "https://perkyz-task-master-knightfury101.vercel.app/",
