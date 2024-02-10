@@ -7,6 +7,27 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
+      image: "/project18.png",
+      projectName: "Collab Canvas - A Real-Time Collaboration SaaS",
+      projectLink: "https://collabcanvas.vercel.app/",
+      projectDescription:
+        "Welcome to Collab Canvas, a cutting-edge real-time collaboration tool that redefines the way teams work together remotely. Built with a powerful stack of technologies, Collab Canvas offers a seamless experience for users to brainstorm, plan, and create together in real-time. Whether you're sketching out ideas, annotating designs, or collaborating on diagrams, Collab Canvas provides the tools you need to unleash your creativity and productivity.",
+      projectTech: [
+        "Next.js 14",
+        "React.js",
+        "Tailwind CSS",
+        "LiveBlocks",
+        "Convex Database",
+        "ShadcnUI",
+        "Clerk Authentication",
+        "Stripe",
+      ],
+      projectExternalLinks: {
+        github: "https://github.com/knightfury101/collabcanvas",
+        externalLink: "https://collabcanvas.vercel.app/",
+      },
+    },
+    {
       image: "/project17.png",
       projectName: "LiveVibe - A Live Streaming App",
       projectLink: "https://live-vibe.vercel.app/",
